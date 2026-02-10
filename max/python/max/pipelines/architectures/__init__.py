@@ -61,6 +61,7 @@ def register_all_models() -> None:
     from .qwen2_5vl import qwen2_5_vl_arch
     from .qwen3 import qwen3_arch, qwen3_moe_arch
     from .qwen3_embedding import qwen3_embedding_arch
+    from .qwen3_next import qwen3_next_arch
     from .qwen3vl_moe import qwen3vl_arch, qwen3vl_moe_arch
 
     architectures = [
@@ -93,6 +94,7 @@ def register_all_models() -> None:
         qwen3_arch,
         qwen3_moe_arch,
         qwen3_embedding_arch,
+        qwen3_next_arch,
         qwen3vl_arch,
         qwen3vl_moe_arch,
     ]
